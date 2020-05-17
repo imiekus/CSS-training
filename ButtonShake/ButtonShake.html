@@ -4,91 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Przycisk</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            /* box-sizing: border-box; */
-        }
-
-        body {
-            position: relative;
-            min-height: 100vh;
-            background: radial-gradient(circle, rgba(238, 174, 202, 1) 20%, rgba(148, 187, 233, 1) 91%);
-        }
-
-        button {
-            position: absolute;
-            display: block;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border: 2px solid black;
-            padding: 20px 40px;
-            background-color: #fff;
-            font-size: 40px;
-            text-transform: uppercase;
-            font-family: sans-serif;
-            border-radius: 30%;
-            animation: shakes 5s linear infinite;
-        }
-
-        @keyframes shakes {
-            0% {
-                transform: translateX(0) rotateX(0deg)
-            }
-
-            90% {
-                transform: translateX(0) rotateX(0deg)
-            }
-
-            91% {
-                transform: translateX(20px) rotateX(-10deg)
-            }
-
-            92% {
-                transform: translateX(-20px) rotateX(10deg)
-            }
-
-            93% {
-                transform: translateX(20px) rotateX(-10deg)
-            }
-
-            94% {
-                transform: translateX(-20px) rotateX(10deg)
-            }
-
-            95% {
-                transform: translateX(20px) rotateX(-10deg)
-            }
-
-            96% {
-                transform: translateX(-20px) rotateX(10deg)
-            }
-
-            97% {
-                transform: translateX(20px) rotateX(-10deg)
-            }
-
-            98% {
-                transform: translateX(-20px) rotateX(10deg)
-            }
-
-            99% {
-                transform: translateX(20px) rotateX(-10deg)
-            }
-
-            100% {
-                transform: translateX(0) rotateX(0deg)
-            }
-        }
-    </style>
+    <title>Button shake</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <button><span>Let it shake!</span></button>
+
+    <body>
+        <button>Let it shake!</button>
+    </body>
 </body>
 
 </html>

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(253, 184, 45, 1) 8%, rgba(34, 195, 69, 1) 93%);
+}
+
+button {
+    position: absolute;
+    bottom: 50vh;
+    left: 42vw;
+    cursor: pointer;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    color: black;
+    background-color: bisque;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 2vh 4vh;
+    animation: shakes 5s linear infinite;
+}
+
+@keyframes shakes {
+    0% {
+        transform: translateX(0) rotateX(0deg)
+    }
+
+    90% {
+        transform: translateX(0) rotateX(0deg)
+    }
+
+    91% {
+        transform: translateX(20px) rotateX(-10deg)
+    }
+
+    92% {
+        transform: translateX(-20px) rotateX(10deg)
+    }
+
+    93% {
+        transform: translateX(20px) rotateX(-10deg)
+    }
+
+    94% {
+        transform: translateX(-20px) rotateX(10deg)
+    }
+
+    95% {
+        transform: translateX(20px) rotateX(-10deg)
+    }
+
+    96% {
+        transform: translateX(-20px) rotateX(10deg)
+    }
+
+    97% {
+        transform: translateX(20px) rotateX(-10deg)
+    }
+
+    98% {
+        transform: translateX(-20px) rotateX(10deg)
+    }
+
+    99% {
+        transform: translateX(20px) rotateX(-10deg)
+    }
+
+    100% {
+        transform: translateX(0) rotateX(0deg)
+    }
+}
