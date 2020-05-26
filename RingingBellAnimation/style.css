@@ -32,14 +32,12 @@ body {
 }
 
 .bell:hover {
-    background-color: cadetblue;
+    background-color: magenta;
 }
 
 .bell:hover i {
     color: white;
     animation-duration: .15s;
-    /* animation-play-state: paused; */
-    /* animation: none; */
 }
 
 @keyframes rotate {
